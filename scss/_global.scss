@@ -1,0 +1,105 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --text-color-light: #fff;
+    --text-color-dark-title: #111111;
+    --text-color-dark-text: #030303;
+    --card-title-color: #2a336c;
+    --card-text-color: #555555;
+
+    --color-decor: #969af7;
+    --background-color: #f2f2f4;
+    --card-color: #fff;
+
+    --font-navigation: 'FuturaLightC', sans-serif;
+    --font-description: 'FuturaBookC', sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-decor);
+}
+
+button,
+a {
+    color: currentColor;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.container {
+    position: relative;
+    max-width: 1320px;
+    padding-inline: 20px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.title {
+    font-family: 'FuturaFuturisC', sans-serif;
+    font-weight: 700;
+    font-size: clamp(35px, 4vw, 45px);
+    line-height: 99.8%;
+    text-align: center;
+}
+
+.text {
+    color: var(--text-color-dark-text);
+    font-family: 'FuturaBookC', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.wrapper-top {
+    background: url(../images/Icons/header.svg),
+        url(../images/Backgrounds/Header.svg);
+    background-size: cover;
+}
+
+.button {
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    padding-block: 19px;
+    color: var(--text-color-light);
+    text-align: center;
+    font-family: 'FuturaFuturisC', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'FuturaBookC';
+    src: url(./FuturaBookC\ Regular.woff2) format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuturaDemiC';
+    src: url(./FuturaDemiC\ Regular.woff2) format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuturaFuturisC';
+    src: url(./FuturaFuturisC\ Regular.woff2) format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuturaFuturisC';
+    src: url(./FuturaFuturisC\ Bold.woff2) format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuturaFuturisC';
+    src: url(./FuturaFuturisC\ Bold.woff2) format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuturaLightC';
+    src: url(./FuturaLightC\ Regular.woff2) format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(./Poppins-Bold.woff2) format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(./Poppins-ExtraBold.woff2) format('woff2');
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(./Poppins-Light.woff2) format('woff2');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(./Poppins-Medium.woff2) format('woff2');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(./Poppins-Regular.woff2) format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(./Poppins-SemiBold.woff2) format('woff2');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proximanova';
+    src: url(./proximanova_regular.woff2) format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}

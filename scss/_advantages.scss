@@ -1,0 +1,98 @@
+.advantages {
+    padding-block: 85px 181px;
+    color: var(--text-color-dark-title);
+
+    background: url(../images/Backgrounds/advantages.svg),
+        linear-gradient(
+            0deg,
+            rgba(8, 9, 167, 1) 0%,
+            rgba(41, 42, 178, 1) 44%,
+            rgba(226, 226, 239, 1) 46%,
+            rgba(242, 242, 244, 1) 100%
+        );
+    background-size: cover;
+
+    &__top {
+        max-width: 1051px;
+        margin: 0 auto;
+        text-align: center;
+
+        &-header {
+            margin-bottom: 25px;
+        }
+
+        &-text {
+            margin-bottom: 42px;
+        }
+    }
+
+    &__cards {
+        display: grid;
+        grid-template-columns: max-content max-content max-content;
+        justify-items: center;
+        justify-content: center;
+        gap: 32px 42px;
+    }
+
+    &__card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 369px;
+        min-height: 406px;
+        border-radius: 10px;
+        padding: 40px 30px 61px;
+        overflow: hidden;
+        font-family: 'FuturaBookC', sans-serif;
+        font-weight: 400;
+        background-color: var(--card-color);
+
+        img {
+            margin-bottom: 39px;
+        }
+
+        &-title {
+            margin-bottom: 14px;
+            color: var(--card-title-color);
+            font-family: 'FuturaFuturisC', sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: normal;
+            text-align: center;
+        }
+
+        &-text {
+            max-width: 305px;
+            color: #555;
+            font-size: 20px;
+            line-height: 22px; /* 110% */
+            text-align: center;
+        }
+    }
+    &__card::after {
+        content: '';
+        position: absolute;
+        top: 323px;
+        left: 105px;
+        display: block;
+        width: 441.517px;
+        height: 441.517px;
+        border-radius: 30px;
+        opacity: 0.07;
+        background: #5172c4;
+        transform: rotate(45deg);
+    }
+}
+
+@media (max-width: 1250px) {
+    .advantages__cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 800px) {
+    .advantages__cards {
+        grid-template-columns: 1fr;
+    }
+}
