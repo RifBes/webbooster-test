@@ -20,9 +20,12 @@
 
     &__blocks {
         display: grid;
-        grid-template-columns: max-content max-content max-content;
-        grid-template-areas: 'first second third' 'six five four';
+        //grid-template-columns: max-content max-content max-content;
+        grid-template-columns: repeat(3, auto);
+        // grid-template-areas: 'first second third' 'six five four';
         margin-bottom: 49px;
+        justify-items: end;
+        position: relative;
     }
 
     &__block {
@@ -32,7 +35,7 @@
         &-main {
             position: absolute;
             top: 38px;
-            left: 35px;
+            left: 42px;
         }
 
         &-header {
@@ -92,26 +95,26 @@
     }
 }
 
-.first {
-    grid-area: first;
-}
-.second {
-    grid-area: second;
-}
-.third {
-    grid-area: third;
-    justify-self: flex-end;
-}
-.four {
-    grid-area: four;
-}
-.five {
-    grid-area: five;
-}
-.six {
-    grid-area: six;
-    justify-self: end;
-}
+// .first {
+//     grid-area: first;
+// }
+// .second {
+//     grid-area: second;
+// }
+// .third {
+//     grid-area: third;
+//     justify-self: flex-end;
+// }
+// .four {
+//     grid-area: four;
+// }
+// .five {
+//     grid-area: five;
+// }
+// .six {
+//     grid-area: six;
+//     justify-self: end;
+// }
 
 @media (max-width: 1290px) {
     .scheme__blocks {

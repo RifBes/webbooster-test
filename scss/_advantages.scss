@@ -92,6 +92,10 @@
 }
 
 @media (max-width: 800px) {
+    .advantages {
+        padding-block: 60px;
+    }
+
     .advantages__cards {
         grid-template-columns: 1fr;
     }

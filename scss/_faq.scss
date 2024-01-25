@@ -128,3 +128,9 @@
         padding-inline-end: 50px;
     }
 }
+
+@media (max-width: 500px) {
+    .faq__main-question {
+        font-size: 20px;
+    }
+}

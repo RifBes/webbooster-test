@@ -44,6 +44,15 @@
     }
 }
 
+.bold_span {
+    color: #fff;
+    font-family: 'FuturaFuturisC', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 122.8%;
+    text-transform: uppercase;
+}
+
 @media (max-width: 1370px) {
     .header-container {
         flex-direction: column;
