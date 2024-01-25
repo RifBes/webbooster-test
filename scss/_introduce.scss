@@ -19,8 +19,7 @@
 
             .text-color {
                 color: var(--color-decor);
-                font-size: 50.23px;
-                font-size: clamp(30px, 4.2vw, 50.23px);
+                font-size: clamp(30px, 4.2vw, 48.23px);
             }
 
             .text-lower {
@@ -143,6 +142,10 @@
         border-radius: 10px;
         background: #f5f3ff;
         box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.1) inset;
+    }
+
+    &-input::placeholder {
+        color: #bcbfc4;
     }
 
     &-button {

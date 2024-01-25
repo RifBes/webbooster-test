@@ -44,7 +44,7 @@
         border-radius: 10px;
         padding: 40px 30px 61px;
         overflow: hidden;
-        font-family: 'FuturaBookC', sans-serif;
+        font-family: var(--font-FuturaBookC);
         font-weight: 400;
         background-color: var(--card-color);
 
@@ -55,7 +55,7 @@
         &-title {
             margin-bottom: 14px;
             color: var(--card-title-color);
-            font-family: 'FuturaFuturisC', sans-serif;
+            font-family: var(--font-FuturaFuturisC);
             font-weight: 700;
             font-size: 20px;
             line-height: normal;

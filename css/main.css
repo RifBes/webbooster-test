@@ -231,8 +231,7 @@ a {
 }
 .introduce__info-title .text-color {
   color: var(--color-decor);
-  font-size: 50.23px;
-  font-size: clamp(30px, 4.2vw, 50.23px);
+  font-size: clamp(30px, 4.2vw, 48.23px);
 }
 .introduce__info-title .text-lower {
   font-size: 61.226px;
@@ -334,6 +333,9 @@ a {
   background: #f5f3ff;
   box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.1) inset;
 }
+.form-input::placeholder {
+  color: #bcbfc4;
+}
 .form-button {
   background: var(--button-light-color);
   margin-top: 30px;
@@ -395,7 +397,7 @@ a {
   border-radius: 10px;
   padding: 40px 30px 61px;
   overflow: hidden;
-  font-family: "FuturaBookC", sans-serif;
+  font-family: var(--font-FuturaBookC);
   font-weight: 400;
   background-color: var(--card-color);
 }
@@ -405,7 +407,7 @@ a {
 .advantages__card-title {
   margin-bottom: 14px;
   color: var(--card-title-color);
-  font-family: "FuturaFuturisC", sans-serif;
+  font-family: var(--font-FuturaFuturisC);
   font-weight: 700;
   font-size: 20px;
   line-height: normal;
@@ -499,9 +501,9 @@ a {
 }
 .producers-text {
   color: #fff;
-  font-family: "FuturaBookC", sans-serif;
+  font-family: var(--font-FuturaBookC);
   font-weight: 400;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 31px;
 }
 
