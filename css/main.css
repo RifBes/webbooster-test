@@ -91,7 +91,7 @@ a {
 }
 
 .wrapper-top {
-  background: url(../images/Icons/header.svg), url(../images/Backgrounds/Header.svg);
+  background: url(../images/Icons/Header.png), url(../images/Backgrounds/Header.svg);
   background-size: cover;
 }
 
@@ -446,7 +446,7 @@ a {
 }
 .producers {
   padding-block: 103px 93px;
-  background: url(../images/Icons/Producers.svg) lightgray 50%/cover no-repeat;
+  background: url(../images/Icons/Producers.png) lightgray 50%/cover no-repeat;
   background-color: var(--bg-color-blue);
   background-blend-mode: lighten;
 }
