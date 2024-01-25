@@ -6,18 +6,34 @@
 }
 
 :root {
+    --bg-for-scroll: #07086c;
+    --bg-color-blue: rgb(8, 9, 167);
+    --neutral-color: #fff;
+    --color-decor: #969af7;
+    --background-color: #f2f2f4;
+
+    --form-label: #626366;
+
+    --button-light-color: #ffa500;
+
     --text-color-light: #fff;
     --text-color-dark-title: #111111;
     --text-color-dark-text: #030303;
+
     --card-title-color: #2a336c;
     --card-text-color: #555555;
-
-    --color-decor: #969af7;
-    --background-color: #f2f2f4;
     --card-color: #fff;
 
-    --font-navigation: 'FuturaLightC', sans-serif;
-    --font-description: 'FuturaBookC', sans-serif;
+    --color-question: #333;
+    --bg-arrow-for-open: #5172c4;
+
+    --scheme-text-color: #e3e3e3;
+    --scheme-bg: #5172c4;
+
+    --font-FuturaLightC: 'FuturaLightC', sans-serif;
+    --font-FuturaBookC: 'FuturaBookC', sans-serif;
+    --font-FuturaDemiC: 'FuturaDemiC', sans-serif;
+    --font-FuturaFuturisC: 'FuturaFuturisC', sans-serif;
 }
 
 body {

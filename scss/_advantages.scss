@@ -56,7 +56,6 @@
             margin-bottom: 14px;
             color: var(--card-title-color);
             font-family: 'FuturaFuturisC', sans-serif;
-            font-weight: 700;
             font-size: 20px;
             line-height: normal;
             text-align: center;
@@ -64,9 +63,9 @@
 
         &-text {
             max-width: 305px;
-            color: #555;
+            color: var(--card-text-color);
             font-size: 20px;
-            line-height: 22px; /* 110% */
+            line-height: 22px;
             text-align: center;
         }
     }
@@ -80,7 +79,7 @@
         height: 441.517px;
         border-radius: 30px;
         opacity: 0.07;
-        background: #5172c4;
+        background: var(--bg-arrow-for-open);
         transform: rotate(45deg);
     }
 }
@@ -92,10 +91,6 @@
 }
 
 @media (max-width: 800px) {
-    .advantages {
-        padding-block: 60px;
-    }
-
     .advantages__cards {
         grid-template-columns: 1fr;
     }

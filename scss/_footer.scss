@@ -10,17 +10,17 @@
 
     &__list {
         color: var(--text-color-light);
-        font-family: 'FuturaBookC';
+        font-family: var(--font-FuturaBookC);
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
-        line-height: 122.8%; /* 22.104px */
+        line-height: 122.8%;
         display: flex;
         gap: 36px;
     }
 
     &-button {
-        background: #969af7;
+        background: var(--color-decor);
         padding-inline: 53px;
     }
 }

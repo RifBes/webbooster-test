@@ -1,7 +1,7 @@
 .faq {
     padding-block: 66px 95px;
     position: relative;
-    background: rgb(8, 9, 167);
+    background: var(--bg-color-blue);
     overflow: hidden;
 
     &-background {
@@ -23,12 +23,12 @@
         }
 
         &-question {
-            color: #333;
-            font-family: 'FuturaDemiC', sans-serif;
+            color: var(--color-question);
+            font-family: var(--font-FuturaDemiC);
             font-size: 24px;
             font-style: normal;
             font-weight: 600;
-            line-height: 28px; /* 116.667% */
+            line-height: 28px;
         }
 
         &-answers {
@@ -36,11 +36,11 @@
             border: 1px solid #167ec2;
             background: #fff;
             color: #333;
-            font-family: 'FuturaBookC', sans-serif;
+            font-family: var(--font-FuturaBookC);
             font-size: 20px;
             font-style: normal;
             font-weight: 400;
-            line-height: 27px; /* 135% */
+            line-height: 27px;
         }
 
         &-answer {

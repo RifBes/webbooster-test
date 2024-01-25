@@ -6,16 +6,27 @@
 }
 
 :root {
+  --bg-for-scroll: #07086c;
+  --bg-color-blue: rgb(8, 9, 167);
+  --neutral-color: #fff;
+  --color-decor: #969af7;
+  --background-color: #f2f2f4;
+  --form-label: #626366;
+  --button-light-color: #ffa500;
   --text-color-light: #fff;
   --text-color-dark-title: #111111;
   --text-color-dark-text: #030303;
   --card-title-color: #2a336c;
   --card-text-color: #555555;
-  --color-decor: #969af7;
-  --background-color: #f2f2f4;
   --card-color: #fff;
-  --font-navigation: "FuturaLightC", sans-serif;
-  --font-description: "FuturaBookC", sans-serif;
+  --color-question: #333;
+  --bg-arrow-for-open: #5172c4;
+  --scheme-text-color: #e3e3e3;
+  --scheme-bg: #5172c4;
+  --font-FuturaLightC: "FuturaLightC", sans-serif;
+  --font-FuturaBookC: "FuturaBookC", sans-serif;
+  --font-FuturaDemiC: "FuturaDemiC", sans-serif;
+  --font-FuturaFuturisC: "FuturaFuturisC", sans-serif;
 }
 
 body {
@@ -113,7 +124,7 @@ a {
   color: var(--text-color-light);
 }
 .header-scroll {
-  background: #07086c;
+  background: var(--bg-for-scroll);
 }
 .header-container {
   display: flex;
@@ -129,7 +140,7 @@ a {
 .header__list {
   display: flex;
   gap: 35px;
-  font-family: var(--font-navigation);
+  font-family: var(--font-FuturaLightC);
   font-size: 18px;
   line-height: 122.8%;
 }
@@ -137,14 +148,13 @@ a {
   display: flex;
   align-items: center;
   gap: 9px;
-  font-family: "FuturaFuturisC", sans-serif;
+  font-family: var(--font-FuturaFuturisC);
   font-weight: 400;
   font-size: 18px;
 }
 
 .bold_span {
   color: #fff;
-  font-family: "FuturaFuturisC", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 122.8%;
@@ -206,12 +216,12 @@ a {
   grid-template-columns: 1fr min-content;
   gap: 50px;
   align-items: start;
-  font-family: "FuturaBookC", sans-serif;
+  font-family: var(--font-FuturaBookC);
   font-weight: 400;
 }
 .introduce__info-title {
   color: var(--text-color-light);
-  font-family: "FuturaFuturisC", sans-serif;
+  font-family: var(--font-FuturaFuturisC);
   font-size: clamp(40px, 5.2vw, 69.23px);
   font-weight: 700;
   line-height: 99.8%;
@@ -275,7 +285,7 @@ a {
   color: var(--text-color-light);
   text-align: center;
   text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-  font-family: "FuturaFuturisC", sans-serif;
+  font-family: var(--font-FuturaFuturisC);
   font-size: 23px;
   font-weight: 700;
 }
@@ -310,12 +320,12 @@ a {
 }
 
 .form-label {
-  color: #626366;
+  color: var(--form-label);
   font-size: 18px;
   line-height: 128.906%;
 }
 .form-input {
-  font-family: "FuturaBookC", sans-serif;
+  font-family: var(--font-FuturaBookC);
   font-size: 20px;
   border: none;
   padding: 20px;
@@ -324,7 +334,7 @@ a {
   box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.1) inset;
 }
 .form-button {
-  background: #ffa500;
+  background: var(--button-light-color);
   margin-top: 30px;
 }
 
@@ -395,16 +405,15 @@ a {
   margin-bottom: 14px;
   color: var(--card-title-color);
   font-family: "FuturaFuturisC", sans-serif;
-  font-weight: 700;
   font-size: 20px;
   line-height: normal;
   text-align: center;
 }
 .advantages__card-text {
   max-width: 305px;
-  color: #555;
+  color: var(--card-text-color);
   font-size: 20px;
-  line-height: 22px; /* 110% */
+  line-height: 22px;
   text-align: center;
 }
 .advantages__card::after {
@@ -417,7 +426,7 @@ a {
   height: 441.517px;
   border-radius: 30px;
   opacity: 0.07;
-  background: #5172c4;
+  background: var(--bg-arrow-for-open);
   transform: rotate(45deg);
 }
 
@@ -427,9 +436,6 @@ a {
   }
 }
 @media (max-width: 800px) {
-  .advantages {
-    padding-block: 60px;
-  }
   .advantages__cards {
     grid-template-columns: 1fr;
   }
@@ -437,7 +443,7 @@ a {
 .producers {
   padding-block: 103px 93px;
   background: url(../images/Icons/Producers.svg) lightgray 50%/cover no-repeat;
-  background-color: #0809a7;
+  background-color: var(--bg-color-blue);
   background-blend-mode: lighten;
 }
 .producers-title {
@@ -494,7 +500,7 @@ a {
   font-family: "FuturaBookC", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 31px; /* 155% */
+  line-height: 31px;
 }
 
 @media (max-width: 1420px) {
@@ -511,7 +517,7 @@ a {
 }
 .scheme {
   padding-block: 135px 154px;
-  background: rgb(8, 9, 167) url(../images/Backgrounds/scheme.svg);
+  background: var(--bg-color-blue) url(../images/Backgrounds/scheme.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -548,28 +554,28 @@ a {
   gap: 18px;
 }
 .scheme__block-number {
-  color: #969af7;
-  font-family: "FuturaFuturisC", sans-serif;
+  color: var(--color-decor);
+  font-family: var(--font-FuturaFuturisC);
   font-size: 36px;
   font-weight: 700;
   line-height: normal;
 }
 .scheme__block-title {
-  color: #fff;
-  font-family: "FuturaFuturisC", sans-serif;
+  color: var(--neutral-color);
+  font-family: var(--font-FuturaFuturisC);
   font-size: 18px;
   font-weight: 700;
   line-height: 25px;
   width: 300px;
 }
 .scheme__block-text {
-  color: #e3e3e3;
-  font-family: "FuturaBookC", sans-serif;
+  color: var(--scheme-text-color);
+  font-family: var(--font-FuturaBookC);
   font-size: 18px;
   font-style: normal;
   width: 289px;
   font-weight: 400;
-  line-height: 25px; /* 138.889% */
+  line-height: 25px;
   position: absolute;
   top: 58px;
   left: 60px;
@@ -584,11 +590,11 @@ a {
   height: 441.517px;
   border-radius: 30px;
   opacity: 0.07;
-  background: #5172c4;
+  background: var(--scheme-bg);
   transform: rotate(45deg);
 }
 .scheme-button {
-  background: #ffa500;
+  background: var(--button-light-color);
   padding-inline: 72px;
 }
 
@@ -627,16 +633,22 @@ a {
     flex-direction: column;
   }
 }
-@media (max-width: 420px) {
+@media (max-width: 460px) {
   .scheme__block {
-    padding-inline: 10px;
+    padding-inline: 20px;
     width: 350px;
+  }
+  .scheme__block-header {
+    margin-bottom: 20px;
+  }
+  .scheme__block-title {
+    font-size: 16px;
   }
 }
 .faq {
   padding-block: 66px 95px;
   position: relative;
-  background: rgb(8, 9, 167);
+  background: var(--bg-color-blue);
   overflow: hidden;
 }
 .faq-background {
@@ -654,23 +666,23 @@ a {
   box-shadow: 0px 0px 50px -10px rgba(22, 126, 194, 0.2);
 }
 .faq__main-question {
-  color: #333;
-  font-family: "FuturaDemiC", sans-serif;
+  color: var(--color-question);
+  font-family: var(--font-FuturaDemiC);
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
-  line-height: 28px; /* 116.667% */
+  line-height: 28px;
 }
 .faq__main-answers {
   border-radius: 0 0 10px 10px;
   border: 1px solid #167ec2;
   background: #fff;
   color: #333;
-  font-family: "FuturaBookC", sans-serif;
+  font-family: var(--font-FuturaBookC);
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 27px; /* 135% */
+  line-height: 27px;
 }
 .faq__main-answer {
   padding: 39px 43px 0 53px;
@@ -762,16 +774,16 @@ a {
 }
 .footer__list {
   color: var(--text-color-light);
-  font-family: "FuturaBookC";
+  font-family: var(--font-FuturaBookC);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 122.8%; /* 22.104px */
+  line-height: 122.8%;
   display: flex;
   gap: 36px;
 }
 .footer-button {
-  background: #969af7;
+  background: var(--color-decor);
   padding-inline: 53px;
 }
 
