@@ -21,7 +21,8 @@
 
 @font-face {
     font-family: 'FuturaFuturisC';
-    src: url(./futurafuturiscBold.otf) format('opentype'),
+    src: url(./futurafuturiscBold.ttf) format('truetype'),
+        url(./futurafuturiscBold.otf) format('opentype'),
         url(./futurafuturiscBold.woff2) format('woff2');
     font-weight: 700;
     font-display: swap;
